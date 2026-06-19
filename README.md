@@ -56,6 +56,7 @@ Entities:
 - Stock cannot go below zero
 - Debt is automatically created from utang sales
 
+
 ## Design Decisions
 
 ### Customer Table
