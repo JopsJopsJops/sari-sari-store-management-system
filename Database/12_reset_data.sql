@@ -1,0 +1,17 @@
+USE sari_sari_store_db;
+
+SET FOREIGN_KEY_CHECKS = 0;
+
+TRUNCATE TABLE Customer_Debt;
+TRUNCATE TABLE Sale_Item;
+TRUNCATE TABLE Purchase_Item;
+
+TRUNCATE TABLE Sale;
+TRUNCATE TABLE Purchase;
+
+TRUNCATE TABLE Customer;
+TRUNCATE TABLE Supplier;
+TRUNCATE TABLE Product;
+TRUNCATE TABLE Operating_Expense;
+
+SET FOREIGN_KEY_CHECKS = 1;
